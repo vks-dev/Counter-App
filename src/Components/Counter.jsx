@@ -1,9 +1,9 @@
 import './Counter.css';
-
 import React, {useState} from 'react'
 
 const Counter = () => {
-    let [count, updatedCount] = useState(0);
+  let [count, updatedCount] = useState(0);
+  
   const Increase = () => {
     updatedCount(count + 1)
   }
